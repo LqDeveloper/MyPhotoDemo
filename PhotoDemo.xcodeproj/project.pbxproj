@@ -14,13 +14,13 @@
 		51CBA35F22604642004541C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51CBA35D22604642004541C0 /* LaunchScreen.storyboard */; };
 		51CBA36A22604642004541C0 /* PhotoDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBA36922604642004541C0 /* PhotoDemoTests.swift */; };
 		51CBA37522604642004541C0 /* PhotoDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBA37422604642004541C0 /* PhotoDemoUITests.swift */; };
-		51CBA38822604649004541C0 /* AlbumsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBA38422604649004541C0 /* AlbumsManager.swift */; };
-		51CBA38922604649004541C0 /* PhotoAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBA38522604649004541C0 /* PhotoAuthorization.swift */; };
-		51CBA38A22604649004541C0 /* PhotosChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBA38622604649004541C0 /* PhotosChange.swift */; };
-		51CBA38B22604649004541C0 /* PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBA38722604649004541C0 /* PhotoManager.swift */; };
-		51CBA38D22604696004541C0 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBA38C22604696004541C0 /* PhotosViewController.swift */; };
 		51CBA38F22604784004541C0 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51CBA38E22604784004541C0 /* image.jpg */; };
 		51CBA39222604824004541C0 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CBA39122604824004541C0 /* Photos.framework */; };
+		51CBA39422604BD8004541C0 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBA39322604BD8004541C0 /* PhotosViewController.swift */; };
+		51CBA39B22604BF3004541C0 /* AlbumsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBA39722604BF3004541C0 /* AlbumsManager.swift */; };
+		51CBA39C22604BF3004541C0 /* PhotoAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBA39822604BF3004541C0 /* PhotoAuthorization.swift */; };
+		51CBA39D22604BF3004541C0 /* PhotosChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBA39922604BF3004541C0 /* PhotosChange.swift */; };
+		51CBA39E22604BF3004541C0 /* PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CBA39A22604BF3004541C0 /* PhotoManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,13 +54,13 @@
 		51CBA37022604642004541C0 /* PhotoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CBA37422604642004541C0 /* PhotoDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDemoUITests.swift; sourceTree = "<group>"; };
 		51CBA37622604642004541C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51CBA38422604649004541C0 /* AlbumsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsManager.swift; sourceTree = "<group>"; };
-		51CBA38522604649004541C0 /* PhotoAuthorization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoAuthorization.swift; sourceTree = "<group>"; };
-		51CBA38622604649004541C0 /* PhotosChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosChange.swift; sourceTree = "<group>"; };
-		51CBA38722604649004541C0 /* PhotoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoManager.swift; sourceTree = "<group>"; };
-		51CBA38C22604696004541C0 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		51CBA38E22604784004541C0 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
 		51CBA39122604824004541C0 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		51CBA39322604BD8004541C0 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		51CBA39722604BF3004541C0 /* AlbumsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsManager.swift; sourceTree = "<group>"; };
+		51CBA39822604BF3004541C0 /* PhotoAuthorization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoAuthorization.swift; sourceTree = "<group>"; };
+		51CBA39922604BF3004541C0 /* PhotosChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosChange.swift; sourceTree = "<group>"; };
+		51CBA39A22604BF3004541C0 /* PhotoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,11 +113,11 @@
 		51CBA35322604641004541C0 /* PhotoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				51CBA39522604BF3004541C0 /* PhotoManager */,
 				51CBA38E22604784004541C0 /* image.jpg */,
-				51CBA38222604649004541C0 /* PhotoManager */,
 				51CBA35422604641004541C0 /* AppDelegate.swift */,
 				51CBA35622604641004541C0 /* ViewController.swift */,
-				51CBA38C22604696004541C0 /* PhotosViewController.swift */,
+				51CBA39322604BD8004541C0 /* PhotosViewController.swift */,
 				51CBA35822604641004541C0 /* Main.storyboard */,
 				51CBA35B22604642004541C0 /* Assets.xcassets */,
 				51CBA35D22604642004541C0 /* LaunchScreen.storyboard */,
@@ -144,32 +144,31 @@
 			path = PhotoDemoUITests;
 			sourceTree = "<group>";
 		};
-		51CBA38222604649004541C0 /* PhotoManager */ = {
-			isa = PBXGroup;
-			children = (
-				51CBA38322604649004541C0 /* Extension */,
-				51CBA38722604649004541C0 /* PhotoManager.swift */,
-			);
-			name = PhotoManager;
-			path = ../../VonCamera/VonCamera/FunctionModule/PhotoManager;
-			sourceTree = "<group>";
-		};
-		51CBA38322604649004541C0 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				51CBA38422604649004541C0 /* AlbumsManager.swift */,
-				51CBA38522604649004541C0 /* PhotoAuthorization.swift */,
-				51CBA38622604649004541C0 /* PhotosChange.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
 		51CBA39022604824004541C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				51CBA39122604824004541C0 /* Photos.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51CBA39522604BF3004541C0 /* PhotoManager */ = {
+			isa = PBXGroup;
+			children = (
+				51CBA39622604BF3004541C0 /* Extension */,
+				51CBA39A22604BF3004541C0 /* PhotoManager.swift */,
+			);
+			path = PhotoManager;
+			sourceTree = "<group>";
+		};
+		51CBA39622604BF3004541C0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				51CBA39722604BF3004541C0 /* AlbumsManager.swift */,
+				51CBA39822604BF3004541C0 /* PhotoAuthorization.swift */,
+				51CBA39922604BF3004541C0 /* PhotosChange.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,13 +303,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51CBA38B22604649004541C0 /* PhotoManager.swift in Sources */,
+				51CBA39422604BD8004541C0 /* PhotosViewController.swift in Sources */,
+				51CBA39C22604BF3004541C0 /* PhotoAuthorization.swift in Sources */,
+				51CBA39E22604BF3004541C0 /* PhotoManager.swift in Sources */,
+				51CBA39B22604BF3004541C0 /* AlbumsManager.swift in Sources */,
 				51CBA35722604641004541C0 /* ViewController.swift in Sources */,
-				51CBA38822604649004541C0 /* AlbumsManager.swift in Sources */,
-				51CBA38922604649004541C0 /* PhotoAuthorization.swift in Sources */,
-				51CBA38D22604696004541C0 /* PhotosViewController.swift in Sources */,
+				51CBA39D22604BF3004541C0 /* PhotosChange.swift in Sources */,
 				51CBA35522604641004541C0 /* AppDelegate.swift in Sources */,
-				51CBA38A22604649004541C0 /* PhotosChange.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
